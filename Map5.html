@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .background-image {
+            position: relative;
+            background-image: url('https://static.wikia.nocookie.net/valorant/images/f/fc/Loading_Screen_Fracture.png/revision/latest?cb=20210908143656');
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h2  {
+            color: black;
+            font-size: 48px;
+        }
+        .centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+        }
+      </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+      function toggleDropdown() {
+          var dropdownContent = document.getElementById("dropdownContent");
+          dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+      }
+  </script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Valorant Lineups Fracture</h1>
+        <div class="dropdown">
+            <div class="button-link dropdown-label" onclick="toggleDropdown()">Maps</div>
+          <div class="dropdown-content" id="dropdownContent">
+            <a href="Map1.html">Ascent</a>
+            <a href="Map2.html">Bind</a>
+            <a href="Map3.html">Haven</a>
+            <a href="Map4.html">Pearl</a>
+            <a href="Map6.html">Split</a>
+            <a href="Map7.html">Lotus</a>
+          </div>
+      </div>
+      <a class="Home-button" href="Mainpage.html">Home</a>
+    </header>
+    <div class="background-image"></div>
+    <div class="centered-text">
+        <h2>Map Information</h2>
+        <p> Fracture is a unique map because it has 2 areas which are available for Attackers before the round starts. Because of this defenders 
+            need to constantly attack some space to not get overrun.
+        </p>
+      </div>
+      <div class="box">
+        <img src="https://preview.redd.it/uhf8chtcdcp81.png?width=1366&format=png&auto=webp&s=a33978c39f2146a5153a2be062de5ec99bdb0a28">
+        <p> For this lineup you need to stand where the knife is in this picture, aim at the border between the vegetation and the wall
+             of the second wall segment and do a full charge 1 bounce <br> This will clear site.
+        </p>
+    </div>
+    <div class="box">
+        <img src="https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2021/09/05/valorant-fracture-b-site.jpg">
+        <p>This is a defens side lineup, on b stand in the corner of site which you can see on the right side of the picture, 
+            line up the bottom part of you charge bar with the greenery of the wall and do a one charge. This will give you some early information.
+        </p>
+    </div>
+</body>
+<footer class="footer">
+    <p>Manser Alberto     All rights reserved.</p>
+  </footer>
+</html>

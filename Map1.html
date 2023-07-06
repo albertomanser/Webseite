@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+        .background-image {
+            position: relative;
+            background-image: url('https://dotesports.com/wp-content/uploads/2020/06/09091543/Ascent-2-1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h2  {
+            color: black;
+            font-size: 48px;
+        }
+        .centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        
+      </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+      function toggleDropdown() {
+          var dropdownContent = document.getElementById("dropdownContent");
+          dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+      }
+  </script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Valorant Lineups Ascent</h1>
+        <div class="dropdown">
+          <div class="button-link dropdown-label" onclick="toggleDropdown()">Maps</div>
+          <div class="dropdown-content" id="dropdownContent">
+            <a href="Map2.html">Bind</a>
+            <a href="Map3.html">Haven</a>
+            <a href="Map4.html">Pearl</a>
+            <a href="Map5.html">Fracture</a>
+            <a href="Map6.html">Split</a>
+            <a href="Map7.html">Lotus</a>
+          </div>
+      </div>
+      <a class="Home-button" href="Mainpage.html">Home</a>
+    </header>
+    <div class="background-image"></div>
+    <div class="centered-text">
+      <h2>Map Information</h2>
+      <p> Ascent is a Map with 2 Bombsites and a middle area, it has both open areas and closed off areas and is widely
+         regarded as one of the better Maps of Valorant. Fade, Sova and Kayo see alot of play here.
+      </p>
+    </div>
+    <div class="box">
+      <img src="https://i.ytimg.com/vi/jmIobnqx040/maxresdefault.jpg" alt="Image">
+      <p>In A Main, walk into the corner on the right hand green box seen in this picture, aim at the antenna in the top right and move your crosshair 
+        to the left a bit. Shoot with 1 bar no bounces. 
+        <br>This Lineup clears almost the entire A site and lands really fast which is very helpful for a fast push</p>
+  </div>
+  <div class="box">
+    <img src="https://static1.squarespace.com/static/59af2189c534a58c97bd63b3/5ea9a22bfa38715761c42d79/5ede585724594779e19e2c43/1625928004860/Ascent+Sage+Valorant.jpg?format=1500w">
+    <p>In B Lobby, walk into the Barrier and aim at the tree you see in the window. shoot with a full charge no bounces. 
+      <br>This Lineup is really easy and clears site and stairs for a fast B site take.</p>
+</div>
+</body>
+<footer class="footer">
+  <p>Manser Alberto     All rights reserved.</p>
+</footer>
+</html>

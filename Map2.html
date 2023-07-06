@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+        .background-image {
+            position: relative;
+            background-image: url('https://static.wikia.nocookie.net/valorant/images/2/23/Loading_Screen_Bind.png/revision/latest?cb=20200620202316');
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h2  {
+            color: black;
+            font-size: 48px;
+        }
+        .centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+        }
+      </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+      function toggleDropdown() {
+          var dropdownContent = document.getElementById("dropdownContent");
+          dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+      }
+  </script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Valorant Lineups Bind</h1>
+        <div class="dropdown">
+            <div class="button-link dropdown-label" onclick="toggleDropdown()">Maps</div>
+          <div class="dropdown-content" id="dropdownContent">
+            <a href="Map1.html">Ascent</a>
+            <a href="Map3.html">Haven</a>
+            <a href="Map4.html">Pearl</a>
+            <a href="Map5.html">Fracture</a>
+            <a href="Map6.html">Split</a>
+            <a href="Map7.html">Lotus</a>
+          </div>
+      </div>
+      <a class="Home-button" href="Mainpage.html">Home</a>
+    </header>
+    <div class="background-image"></div>
+    <div class="centered-text">
+        <h2>Map Information</h2>
+        <p> Bind is a Map with 2 Bombsites and 2 teleporters which makes the Map unique and fun to play. 
+            As tradeoff this Map lacks a middle Area. Viper sees alot of play here. Sadly i couldnt find any lineups for sova on this map.
+        </p>
+      </div>
+</body>
+<footer class="footer">
+    <p>Manser Alberto     All rights reserved.</p>
+  </footer>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        
+        .background-image {
+            position: relative;
+            background-image: url('https://static.wikia.nocookie.net/valorant/images/7/70/Loading_Screen_Haven.png/revision/latest?cb=20200620202335');
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h2  {
+            color: black;
+            font-size: 48px;
+        }
+        .centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+        }
+      </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+      function toggleDropdown() {
+          var dropdownContent = document.getElementById("dropdownContent");
+          dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+      }
+  </script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Valorant Lineups Haven</h1>
+        <div class="dropdown">
+            <div class="button-link dropdown-label" onclick="toggleDropdown()">Maps</div>
+          <div class="dropdown-content" id="dropdownContent">
+            <a href="Map1.html">Ascent</a>
+            <a href="Map2.html">Bind</a>
+            <a href="Map4.html">Pearl</a>
+            <a href="Map5.html">Fracture</a>
+            <a href="Map6.html">Split</a>
+            <a href="Map7.html">Lotus</a>
+          </div>
+      </div>
+      <a class="Home-button" href="Mainpage.html">Home</a>
+    </header>
+    <div class="background-image"></div>
+    <div class="centered-text">
+        <h2>Map Information</h2>
+        <p> Haven is the first of 2 Triple Bombsite map , it also has a mid Area unlike its counterpart, Lotus. All 4 Agents we talk about
+            are good on this Map.
+        </p>
+      </div>
+      <div class="box">
+        <img src="https://i.imgur.com/dOEGKHQ.png">
+        <p>put yourself into the position seen on the Picture and look at the lowest part of the branch, aim at that and do a 1 bar no bounce shot. 
+            <br>For A fast pushes this is really useful to clear a long and help your team not get early peaked
+        </p>
+    </div>
+    <div class="box">
+        <img src="https://guides.gamepressure.com/valorant/gfx/word/128357453.jpg">
+        <p> For this lineup you need to align yourself with the first of the "windows" seen in the picture, sneak and aim at the top part 
+            of the house on the left side of long, do a one bounce full charge. <br> This clears out the entirity of C site.
+        </p>
+    </div>
+</body>
+<footer class="footer">
+    <p>Manser Alberto     All rights reserved.</p>
+  </footer>
+
+</html>

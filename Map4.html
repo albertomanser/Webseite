@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .background-image {
+            position: relative;
+            background-image: url('https://cdnportal.mobalytics.gg/production/2022/06/a3647df7-pearl-map-splash.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h2  {
+            color: black;
+            font-size: 48px;
+        }
+        .centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+        }
+      </style>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <script>
+      function toggleDropdown() {
+          var dropdownContent = document.getElementById("dropdownContent");
+          dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+      }
+  </script>
+
+
+</head>
+<body>
+    <header>
+        <h1>Valorant Lineups Pearl</h1>
+        <div class="dropdown">
+            <div class="button-link dropdown-label" onclick="toggleDropdown()">Maps</div>
+          <div class="dropdown-content" id="dropdownContent">
+            <a href="Map1.html">Ascent</a>
+            <a href="Map2.html">Bind</a>
+            <a href="Map3.html">Haven</a>
+            <a href="Map5.html">Fracture</a>
+            <a href="Map6.html">Split</a>
+            <a href="Map7.html">Lotus</a>
+          </div>
+      </div>
+      <a class="Home-button" href="Mainpage.html">Home</a>
+    </header>
+    <div class="background-image"></div>
+    <div class="centered-text">
+        <h2>Map Information</h2>
+        <p> Pearl is a very generic double bombsite map, it has a lot of variety and potential for lurking. Viper sees a lot of play
+            because of her wall and Postplant potential.
+        </p>
+      </div>
+      <div class="box">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTruG3NBJSckQ5ZyeLz0PN7QN62V2XhDohXxA&usqp=CAU">
+        <p>put yourself into a corner to hide behind this pillar and the wall, then bounce your Dart with full power off this Pillar. 
+            This will reveal the entire site for you.
+        </p>
+    </div>
+</body>
+<footer class="footer">
+    <p>Manser Alberto     All rights reserved.</p>
+  </footer>
+</html>
